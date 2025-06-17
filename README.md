@@ -1,88 +1,165 @@
-🏠 AirBnB Clone Project
+# 🏠 AirBnB Clone Project
 
-📘 Overview
-This project is a simplified full-stack clone of the popular AirBnB platform.  
-It aims to simulate the core functionalities of the website such as listing properties, viewing details, and booking accommodations.
+## 📘 Project Description
+This project is a **full-stack clone** of the popular accommodation booking platform **AirBnB**.  
+The goal is to build a functional web application that allows users to:
 
-🎯 Project Goals
-- Learn the structure and flow of a real-world web application.
-- Implement a backend to manage users, listings, and bookings.
-- Build a frontend that communicates efficiently with the backend.
-- Understand the design and UX considerations in modern platforms.
+- Browse property listings
+- View detailed property information
+- Complete bookings
 
-🛠 Tech Stack
-- **Backend:** Python, Flask, MySQL
-- **Frontend:** HTML, CSS, JavaScript
-- **Optional:** Bootstrap, Figma
-- **Version Control:** Git & GitHub
+The project includes frontend development, backend APIs, database design, and deployment.
 
 ---
 
-🎨 UI/UX Design Planning
+## 🎯 Learning Objectives
 
-🧭 Design Goals
-- Build an intuitive and responsive interface.
-- Simplify the booking process in as few steps as possible.
-- Maintain a clean and modern look.
-- Ensure consistency and accessibility across all pages.
+By completing this project, you will:
 
-⭐ Key Features
-- Property listing with filters (location, price, etc.)
-- Detailed property page with full information and image gallery
-- Seamless booking system with date selection and price preview
-
-📄 Page Descriptions
-
-| Page Name              | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| Property Listing View  | A grid view showing multiple properties, each with thumbnail, title, price. |
-| Listing Detailed View  | Full view of selected property: gallery, description, host info, reviews.   |
-| Simple Checkout View   | A booking form with date selector, total price calculator, and booking button. |
+- Learn to implement responsive UI/UX designs
+- Understand how to structure a complex web application
+- Practice working in a team with defined roles
+- Develop skills in component-based frontend architecture
+- Learn best practices for web application development
 
 ---
 
-🎨 Design Properties (from Figma)
+## 🛠 Tech Stack
 
-📘 Color Styles:
-- **Primary Color:** `#FF5A5F` (Airbnb Red)
-- **Secondary Color:** `#484848` (Dark Gray)
-- **Background Color:** `#F7F7F7`
-- **Accent Color:** `#00A699` (Light Green)
-- **Error Color:** `#FF0000`
-
-🅰️ Typography:
-- **Font Family:** "Montserrat", sans-serif
-- **Font Weights:** 300 (Light), 400 (Regular), 500 (Medium), 700 (Bold)
-- **Font Sizes:**
-  - Heading 1: 32px
-  - Heading 2: 24px
-  - Paragraph: 16px
-  - Caption: 12px
-
-🧠 Importance of Design Properties
-Identifying colors, fonts, and layout rules in Figma ensures consistency and simplifies collaboration between developers and designers. It enhances usability, accessibility, and speeds up UI development.
+- **Frontend:** HTML, CSS, JavaScript (React or similar framework)
+- **Version Control:** Git and GitHub
+- **Design Tools:** Figma for UI/UX design
 
 ---
 
-🧱 UI Component Patterns
+## ✅ Requirements
 
-Here are the reusable UI components planned for the project:
+### 📁 Project Initialization
+- Set up GitHub repository with proper documentation
+- Include comprehensive `README.md` with project overview
 
-| Component        | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| **Navbar**        | Top bar with logo, navigation links, search field, and user menu           |
-| **Footer**        | Bottom section with site links, policies, and contact info                 |
-| **Property Card** | Displays property image, title, rating, price – used in listing view       |
-| **Search Filter** | Input fields for destination, dates, guests, and filter options            |
-| **Booking Form**  | Form with calendar, guest selection, and confirm button                    |
-| **Modal**         | Popup windows for login, alerts, or booking confirmation                   |
+### 🎨 UI/UX Design Planning
+- Document design goals and key features
+- Create page descriptions for main views
+- Analyze Figma design specifications
+- Identify color schemes and typography
 
-These components follow a consistent layout system and are styled using shared color and font variables.
+### 👥 Roles and Responsibilities
+- Define team structure and responsibilities
+- Document each role’s contribution to the project
+
+### 🧱 UI Component Patterns
+- Plan reusable UI components
+- Document component architecture
 
 ---
 
-✅ Manual Review
+## 🧼 Best Practices
 
-All project planning steps were completed and documented. The repository structure is ready for collaboration and development.
+- **Code Organization:** Maintain clean, modular code structure
+- **Version Control:** Use feature branches and meaningful commit messages
+- **Responsive Design:** Ensure mobile-first approach
+- **Accessibility:** Follow WCAG guidelines
+- **Documentation:** Keep all project documentation updated
+- **Testing:** Implement unit and integration tests
 
+---
+
+## 🎨 UI/UX Design Planning
+
+### 🧭 Design Goals
+
+- Create intuitive booking flow
+- Maintain visual consistency
+- Ensure fast loading times
+- Prioritize mobile responsiveness
+
+### ⭐ Key Features
+
+- Property search and filtering
+- Detailed property viewing
+- Secure checkout process
+- User authentication
+
+### 📄 Primary Pages
+
+| Page                   | Description                                                        |
+|------------------------|--------------------------------------------------------------------|
+| Property Listing View  | Grid display of available properties with filters                 |
+| Listing Detailed View  | Complete property details with images and booking form           |
+| Simple Checkout View   | Streamlined payment and booking confirmation                     |
+
+### 💡 Importance of User-Friendly Design
+
+A well-designed booking system:
+
+- Reduces friction in the user journey
+- Increases conversion rates
+- Improves customer satisfaction  
+Clear navigation, intuitive interfaces, and responsive design are **critical for success**.
+
+---
+
+## 🎨 Figma Design Specifications
+
+### 🎨 Color Styles
+
+- **Primary:** `#FF5A5F`
+- **Secondary:** `#008489`
+- **Background:** `#FFFFFF`
+- **Text:** `#222222`
+- **Secondary Text:** `#717171`
+
+### 🅰️ Typography
+
+- **Primary Font:** Circular
+- **Headings:** Bold (700), 24px–32px
+- **Body Text:** Medium (500), 16px
+- **Secondary Text:** Book (400), 14px
+
+---
+
+## 👤 Project Roles and Responsibilities
+
+| Role              | Responsibilities                                                            |
+|-------------------|------------------------------------------------------------------------------|
+| Project Manager   | Oversees timeline, coordinates team, manages deliverables                    |
+| Frontend Devs     | Implements UI components, ensures responsive design                          |
+| Backend Devs      | Builds APIs, manages database, implements business logic                     |
+| Designers         | Creates mockups, maintains design system, ensures UX quality                 |
+| QA/Testers        | Writes test cases, performs testing, reports bugs                            |
+| DevOps Engineers  | Manages deployment, CI/CD pipeline, server infrastructure                    |
+| Product Owner     | Defines requirements, prioritizes features, represents stakeholders          |
+| Scrum Master      | Facilitates agile processes, removes blockers, organizes meetings            |
+
+---
+
+## 🧱 UI Component Patterns
+
+### 🔧 Planned Components
+
+#### ✅ Navbar
+- Logo
+- Search bar
+- User navigation
+- Responsive menu
+
+#### 🏠 Property Card
+- Property image
+- Basic details (price, location, rating)
+- Favorite button
+- Responsive layout
+
+#### 📄 Footer
+- Site links
+- Company information
+- Social media links
+- Copyright
+
+Each component will be **designed for reusability and consistency** across the application.
+
+---
+
+## ✅ Final Note
+This README file will be continuously updated as the project progresses.
 GitHub Repository: [airbnb-clone-project](https://github.com/ko-simo/airbnb-clone-project)
